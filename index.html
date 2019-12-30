@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Date Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <form>
+      <div class="inputField">
+        <label>Ім'я:</label>
+        <input type="text" id="name" required />
+      </div>
+      <br />
+      <div class="inputField">
+        <label>Прізвище:</label>
+        <input type="text" id="surname" required />
+      </div>
+      <br />
+      <div class="inputField">
+        <label>E-mail:</label>
+        <input
+          type="email"
+          id="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required
+        />
+      </div>
+      <br />
+      <br /><br />
+      <button id="buttonAdd" type="submit">Додати</button>
+      <button id="buttonChange" type="submit">Змінити</button>
+      <button id="buttonDelete" type="button">Видалити</button>
+      <br />
+    </form>
+    <br />
+    <table id="table">
+      <tr>
+        <th>Ім'я</th>
+        <th>Прізвище</th>
+        <th>E-mail</th>
+        <th>Дата створення</th>
+      </tr>
+    </table>
+
+    <script src="main.js"></script>
+  </body>
+</html>

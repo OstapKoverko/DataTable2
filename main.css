@@ -1,0 +1,28 @@
+form {
+  max-width: 240px;
+  margin: auto;
+  border: 5px solid greenyellow;
+  border-width: 10px 20px;
+  border-radius: 40px 20px;
+  padding: 10px;
+  text-align-last: center;
+}
+.inputField {
+  display: grid;
+}
+label {
+  white-space: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 5px solid greenyellow;
+}
+
+tr:hover {
+  background-color: lightgray;
+}
